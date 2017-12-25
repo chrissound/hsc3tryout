@@ -1,0 +1,10 @@
+SynthDefs can have multiple Ugens
+
+Messages? Async?
+
+AR is sampling rate (48khz)
+KR is 64 times a sec (for controlling knobs)
+
+Some can be set as NRT (non real time)
+
+out sends a signal to a bus
