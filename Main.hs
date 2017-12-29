@@ -11,8 +11,6 @@ import Sound.SC3.Server.Command.Generic (withCM)
 --import Control.Monad.IO.Class
 import Control.Concurrent
 import Sound.OSC.Packet
-import  Music.Pitch (a, b, c)
-
 
 myUgen :: UGen -> UGen
 myUgen f = sinOsc
@@ -29,7 +27,6 @@ my_s_new = s_new
 
 main :: IO ()
 main = do
-  print (a :: Pitch)
   print "Started"
   withSC3 reset
   let s1m = d_recv (synthdef "sin1" $ out 0 (myUgen 880))
