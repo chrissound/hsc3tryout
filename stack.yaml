@@ -4,4 +4,16 @@ packages:
 - .
 extra-deps:
 - hsc3-0.16
+- hosc-0.16
+- music-pitch-1.9.0
+- aeson-0.11.3.0
+- data-interval-1.3.0
+- music-pitch-literal-1.9.0
+- positive-0.4.1
+- type-unary-0.3.0
+- vector-space-points-0.2.1.2
+- applicative-numbers-0.1.3
+- extended-reals-0.2.2.0
+- ty-0.1.7
+
 resolver: lts-10.0
